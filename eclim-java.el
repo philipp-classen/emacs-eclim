@@ -440,7 +440,7 @@ sorts import statements. "
 
 (defun eclim-java-implement (&optional name)
   "Lets the user select from a list of methods to
-implemnt/override, then inserts a skeleton for the chosen
+implement/override, then inserts a skeleton for the chosen
 method."
   (interactive)
   (eclim/with-results response ("java_impl" "-p" "-f" "-o")
